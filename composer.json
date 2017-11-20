@@ -1,0 +1,36 @@
+{
+    "name": "daimakuai-ext/media-manager",
+    "description": "Media manager for laravel",
+    "type": "library",
+    "keywords": ["daimakuai", "media", "manager","laravel"],
+    "homepage": "https://github.com/daimakuai-ext/media-manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yt",
+            "email": "431910788@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*",
+        "jblv/daimakuai": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "laravel/laravel": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jblv\\Admin\\Media\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jblv\\Admin\\Media\\MediaServiceProvider"
+            ]
+
+        }
+    }
+}
