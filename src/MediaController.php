@@ -21,7 +21,7 @@ class MediaController extends Controller
 
             $manager = new MediaManager($path);
 
-            $content->body(view("laravel-admin-media::$view", [
+            $content->body(view("daimakuai-ext-media::$view", [
                 'list'   => $manager->ls(),
                 'nav'    => $manager->navigation(),
                 'url'    => $manager->urls(),
