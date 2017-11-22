@@ -2,6 +2,7 @@ daimakuai-ext/media-manager
 ===============================
 
 Media manager for `local` disk.
+[![StyleCI](https://styleci.io/repos/111429511/shield?branch=master)](https://styleci.io/repos/111429511)
 
 ## Screenshot
 
